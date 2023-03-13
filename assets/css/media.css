@@ -1,0 +1,128 @@
+/*MEDIA QUERYS --- RESPONSIVIDADE*/
+
+@media screen and (min-width: 1920px){
+  .piramide {
+    animation: float 3s ease-in-out infinite;
+    height: 558.63px;
+    width: 521.6700000000001px;
+    position: absolute;
+    left: 275px;
+    top: 210px;
+}
+.piramide-fina {
+  animation: float 3s ease-in-out infinite;
+  height: 558.63px;
+  width: 521.6700000000001px;
+  position: absolute;
+  left: 275px;
+  top: 210px;
+}
+.caracol {
+  position: absolute;
+  top: -3rem;
+  left: -8rem;
+  height: 1054.17px;
+  width: 1186.51px;
+  transform: translateX(5%);
+}
+main .captions p {
+  margin-top: 91px;
+  font-family: 'Allerta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 148.33%;
+  color: #1A1462;
+}
+main .titles h1 {
+  margin-bottom: -119px;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 117%;
+  font-family: 'Poppins';
+  font-style: normal;
+  margin-top: 105px;
+}
+main .captions {
+  position: absolute;
+  width: 46.5rem;
+  height: 4.5rem;
+  left: 5.6rem;
+  top: 31rem;
+}
+.about-us .logo-about {
+  margin-top: 265px;
+  height: 27rem;
+  width: 31rem;
+  margin-left: 17rem;
+}
+.triangulos-services {
+  margin-top: -80px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-items: center;
+  margin-left: 597px;
+}
+.texto{
+  padding: 160px;
+}
+.p {
+  width: 50rem;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 100px;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #493A8B;
+} 
+.container {
+  display: flex;
+  justify-content: center;
+  /* display: inline-block; */
+  cursor: pointer;
+  align-items: center;
+}
+}
+
+@media screen and (max-width: 1225px) {
+    .right-content {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1225px) {
+    
+  }
+
+  @media screen and (max-width: 1225px) {
+    /* Estilos quando a tela é menor ou igual a 767px */
+    main .left-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
+
+  @media  (min-width: 992px) {
+    .toggle{
+      display: none;
+    }
+  }
+@media (max-width: 1145px){
+  .identity {
+    display: none !important;  
+    }
+  nav #nav-container{
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media (max-width: 992px){
+  .navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
